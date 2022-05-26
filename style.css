@@ -6,6 +6,9 @@
 
 }
 /*commons*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*layout*/
 .container {
     max-width: 1100px;
@@ -16,6 +19,7 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .col {
@@ -24,7 +28,7 @@
 }
 /*product*/
 .product {
-
+    padding-bottom: 30px;
 
 }
 .product img {
