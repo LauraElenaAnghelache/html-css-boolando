@@ -11,7 +11,7 @@ body {
 }
 /*layout*/
 .container {
-    max-width: 1100px;
+    max-width: 45%;
     padding: 0 10px;
     margin: 0 auto;
 
@@ -29,8 +29,51 @@ body {
 /*product*/
 .product {
     padding-bottom: 30px;
+    cursor: pointer;
+    position: relative;
 
 }
 .product img {
     width: 100%;
+}
+.discount {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.info {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+.info1 {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.bg-red {
+    background-color: #eb0037;
+    padding: 5px;
+    border:#eb0037 ;
+    border-radius: 2px;
+    font-size: x-small;
+    color: white;
+    font-weight: bold;
+}
+.bg-green {
+    background-color: #1a9068;
+    padding: 5px;
+    border: #1a9068;
+    font-size: x-small;
+    color: white;
+    font-weight: bold;
+}
+
+.price {
+    color:#ff3743 ; 
+    font-weight: bolder;
+    
+}
+.strike {
+    color: #8d8f87;
 }
