@@ -6,6 +6,11 @@
 
 }
 /*commons*/
+h4 {
+    font-size: x-small;
+    font-weight: bolder;
+    
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,6 +55,9 @@ body {
     position: absolute;
     bottom: 100px;
     left: 0;
+}
+.brand {
+    font-size: xx-small;
 }
 .bg-red {
     background-color: #eb0037;
